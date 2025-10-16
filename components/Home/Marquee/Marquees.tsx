@@ -1,7 +1,7 @@
 import Marquee from "./Marquee";
 
 const Marquees = () => {
-  var images = [
+  const images = [
     [
       "https://media1.thrillophilia.com/filestore/homepage/sangri_today.png?w=300&dpr=2",
       "https://media1.thrillophilia.com/filestore/homepage/the_tribune.png?w=300&dpr=2",

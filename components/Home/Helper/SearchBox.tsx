@@ -1,27 +1,8 @@
-// import React from "react";
-// import { CiSearch } from "react-icons/ci";
-
-
-// function SearchBox() {
-//   return (
-//     <div className="hidden lg:flex px-6 py-2 gap-5 border-1 rounded-full border-gray-400 items-center justify-center">
-//       <CiSearch className="h-6 w-6 text-black" />
-//       <input
-//         type="text"
-//         placeholder="Search for"
-//         className="focus:outline-none text-black placeholder:text-sm placeholder:text-gray-600 px-2" />
-//     </div>
-//   );
-// }
-
-// export default SearchBox;
-
 "use client"
 import React, { useState, useEffect } from "react";
 import { CiSearch } from "react-icons/ci";
 
-function SearchBox() {
-  const placeholders = [
+const placeholders = [
     "Delhi...",
     "Kashmir...",
     "Paris...",
@@ -29,6 +10,8 @@ function SearchBox() {
     "Brazil...",
     "Bejing..."
   ];
+  
+function SearchBox() {
 
   const [placeholderIndex, setPlaceholderIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);

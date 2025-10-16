@@ -1,13 +1,10 @@
 import React from "react";
-import SectionHeading from "../Helper/SectionHeading";
 import { hotelsData } from "@/data/data";
 import HotelCard from "./HotelCard";
 
 const Hotel = () => {
   return (
     <div className="pt-20 pb-20">
-      {/* Section Heading */}
-      {/* <SectionHeading heading='Recommended Hotels' /> */}
       <p className="text-center text-xl sm:text-3xl text-sky-800 font-bold mb-5 ">
         Recommended Hotels
       </p>

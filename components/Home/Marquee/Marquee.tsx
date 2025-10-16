@@ -17,7 +17,7 @@ const Marquee = ({ imagesurl, direction }: Props) => {
         className="flex flex-shrink-0 gap-15 md:py-8 py-4 pr-10"
       >
         {imagesurl.map((url, index) => (
-          <img key={index} className="md:h-10 h-6" src={url} />
+          <img alt='News Companies' key={index} className="md:h-10 h-6" src={url} />
         ))}
       </motion.div>
       <motion.div
@@ -27,7 +27,7 @@ const Marquee = ({ imagesurl, direction }: Props) => {
         className="flex flex-shrink-0 gap-15 md:py-8 py-4 pr-10"
       >
         {imagesurl.map((url, index) => (
-          <img key={index} className="md:h-10 h-6" src={url} />
+          <img alt='News Companies' key={index} className="md:h-10 h-6" src={url} />
         ))}
       </motion.div>
     </div>
